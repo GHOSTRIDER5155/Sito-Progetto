@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+/* Impostazioni globali */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%; /* Imposta la larghezza del body al 100% */
+}
+
+/*sezione per ruotare lo sfondo*/
+body::before {
+    content: "";
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -1;
+    background-image: url("/Immagini/Immagini-sfondo/dodlees-wallpaper.png"); /* Usa la stessa immagine di sfondo */
+    background-repeat: repeat; /* Ripeti l'immagine */
+    transform: rotate(-17deg) scale(0.8); /* Ruota l'immagine di 20 gradi e rendila del 80% delle dimensioni originali */
+}
+
+
+
+
+
+/* Header */
+header {
+    background-color: #1A4D2E;
+    padding: 20px;
+    color: #E8DFCA;
+}
+
+/* Menu di navigazione */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #E8DFCA;
+}
+
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* Breadcrumbs */
+#breadcrumbs {
+    font-size: 14px;
+    color: #444; /* Colore del testo */
+    margin-top: 30px; /* Aumenta lo spazio sopra le breadcrumbs */
+    padding: 5px; /* Aggiungi spazio intorno alle breadcrumbs */
+    background-color: #E8DFCA; /* Colore di sfondo */
+    border-radius: 25px; /* Arrotonda i bordi */
+    display: inline-block; /* Cambia il display da block a inline-block */
+}
+
+#breadcrumbs a {
+    color: #1A4D2E; /* Colore dei link */
+    text-decoration: none;
+}
+
+#breadcrumbs a:hover {
+    text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+}
+
+
+
+
+/* Language selector */
+#italianFlag, #ukFlag {
+    width: 34px;
+    margin-top: 5px;
+}
+
+#languageSelector {
+    display: flex;
+    align-items: center;
+    float: right;
+    margin-top: -15px;
+  }
+  
+  .language-option {
+    margin: 0 5px;
+  }
+  
+  /* Stile per lo switch */
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+  }
+  
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E8DFCA;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+    border: 2px solid #000000; /* Aggiungi un bordo nero */
+
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 1px;
+    bottom: 1px;
+    background-color: rgb(175, 148, 107);
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+    border: 1px solid #000000; /* Aggiungi un bordo nero */
+  }
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+
+
+
+
+/* Main content */
+main {
+    background-color: #4F6F52;
+    padding: 20px;
+    color: #F5EFE6;
+}
+
+
+
+
+/* Paragraphs */
+  .paragrafo {
+    margin: 10px;
+  }
+  
+  .contenuto {
+    background-color: #4F6F52;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .paragrafo1, .paragrafo3 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .paragrafo2, .paragrafo4 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+
+
+/* Footer */
+footer {
+    /*colori footer*/
+    background-color: #1A4D2E;
+    padding: 20px;
+    color: #E8DFCA;
+
+    /*posizione footer*/
+    clear: both;
+    width: 100%;
+
+    /*scritte footer*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Allinea i contenuti in alto */
+    padding: 20px;
+}
+
+#contatti {
+    flex: 1; /* Il contenuto del footer a sinistra */}
+
+#termini-servizi {
+    flex: 1; /* Il contenuto del footer a destra */
+    text-align: left;
+    padding-right: 20px;
+}
+
+/* Link email, telefono e ringraziamenti */
+#emailLink,
+#phoneLink,
+#Ringraziamenti {
+    color: #E8DFCA; /* Colore testo */
+    text-decoration: none; /* Rimuovi sottolineatura predefinita */
+    margin-top: 10px; /* Aggiungi spazio sopra */
+
+}
+
+#emailLink:hover,
+#phoneLink:hover,
+#Ringraziamenti:hover,
+#link-termini-servizi:hover {
+    text-decoration: underline; /* Aggiungi sottolineatura al passaggio del mouse */
+}
+
+#Ringraziamenti,
+#link-termini-servizi {
+    cursor: pointer; /* Cambia il cursore in una mano quando si passa sopra il testo */
+}
+
+
+
+
+
+

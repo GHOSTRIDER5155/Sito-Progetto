@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Setta la viewport a resposive per mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gabriel's Website</title>
+    <!-- Link al tuo file CSS -->
+    <link rel="stylesheet" href="/Stili-predefiniti/general-style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <!-- LINGUA -->
+      <div id="languageSelector">
+        <span class="language-option">
+          <img
+            id="italianFlag"
+            src="/Immagini/Immagini-lingua/italian.png"
+            alt="italian flag"
+          />
+        </span>
+        <label class="switch">
+          <input type="checkbox" id="checkbox-language" />
+          <span class="slider"></span>
+        </label>
+        <span class="language-option">
+          <img
+            id="ukFlag"
+            src="/Immagini/Immagini-lingua/UK.png"
+            alt="United Kingdom flag"
+          />
+        </span>
+      </div>
+
+      <!-- NAV -->
+      <nav>
+        <ul>
+          <li><a href="#" data-italiano="Home" data-inglese="Home">Home</a></li>
+          <li>
+            <a
+              href="/Home/Lezioni/lezioni.html"
+              data-italiano="Lezioni"
+              data-inglese="Lessons"
+              >Lezioni</a
+            >
+          </li>
+          <li>
+            <a
+              href="/Home/Materiale-condiviso/materiale-condiviso.html"
+              data-italiano="Materiale Condiviso"
+              data-inglese="Shared Materials"
+              >Materiale Condiviso</a
+            >
+          </li>
+          <li>
+            <a href="#contatti" data-italiano="Contatti" data-inglese="Contacts"
+              >Contatti</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- BREADCRUMBS -->
+      <div id="breadcrumbs-container">
+        <p id="breadcrumbs"></p>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <h1 data-italiano="Benvenuto" data-inglese="Welcome">Benvenuto!</h1>
+      </section>
+    </main>
+
+    <section class="Paragrafi-home">
+      <div class="paragrafo paragrafo1">
+        <div class="contenuto">
+          <h2>Argomento 1</h2>
+          <!-- Aggiungi qui il contenuto desiderato -->
+        </div>
+      </div>
+      <div class="paragrafo paragrafo2">
+        <div class="contenuto">
+          <h2>Argomento 2</h2>
+          <!-- Aggiungi qui il contenuto desiderato -->
+        </div>
+      </div>
+      <div class="paragrafo paragrafo3">
+        <div class="contenuto">
+          <h2>Argomento 3</h2>
+          <!-- Aggiungi qui il contenuto desiderato -->
+        </div>
+      </div>
+      <div class="paragrafo paragrafo4">
+        <div class="contenuto">
+          <h2>Argomento 4</h2>
+          <!-- Aggiungi qui il contenuto desiderato -->
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div id="contatti">
+        <p>Contattami qui!</p>
+
+        <p>☞ <a href="#" id="emailLink">Email: gabbonilli@gmail.com</a></p>
+
+        <p>☞ <a href="#" id="phoneLink">Telefono: 3473565469</a></p>
+        <p id="Ringraziamenti">Ringraziamenti</p>
+      </div>
+      <div id="termini-servizi">
+        <p>Termini e Condizioni d'Uso &#9759;</p>
+        <br />
+        <p>
+          Benvenuto sul mio sito! Prima di utilizzare questo sito web, ti prego
+          di leggere attentamente i seguenti Termini e Condizioni d'Uso<span
+            id="link-termini-servizi"
+            >("Ehi guarda qui")</span
+          >
+          a non utilizzare il nostro sito.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Link al tuo file JavaScript -->
+    <script defer src="/Script-generali/general-script.js"></script>
+  </body>
+</html>
