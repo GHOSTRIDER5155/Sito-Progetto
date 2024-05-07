@@ -5,3 +5,6 @@
 - Fixare il traduttore (deve tradurre anche termini e ringraziamenti)
 - Fixare font di tutto
 - Fixare scritta Ringraziamenti nel footer
+
+## DA MODIFICARE
+- Aggiungere animazione sfondo (leggera traslazione verso destra)
