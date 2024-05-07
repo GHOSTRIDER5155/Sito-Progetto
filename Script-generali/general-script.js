@@ -64,3 +64,5 @@ document.getElementById("checkbox-language").addEventListener("click", cambiaLin
 
 // Inizializza la traduzione quando la pagina viene caricata
 document.addEventListener("DOMContentLoaded", cambiaLingua);
+
+
