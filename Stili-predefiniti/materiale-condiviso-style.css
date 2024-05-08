@@ -1,0 +1,224 @@
+/* percentule di completamento */
+/* TUTTI I CREDITI A SERGIO PEDERCINI PER IL GRAFICO */
+.flex-wrapper {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.single-chart {
+    margin-top: 2em;
+  width: 25rem;
+  justify-content: space-around ;
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 100%;
+  border: 3px solid black;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #4F6F52;
+  stroke-width: 3.8;
+}
+
+.circle {
+  fill: none;
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  animation: progress 1.5s ease-out forwards;
+}
+
+@keyframes progress {
+  0% {
+    stroke-dasharray: 0 100;
+  }
+}
+
+.circular-chart.green .circle {
+  stroke: #1a4d2e
+}
+
+.percentage {
+  fill: rgb(83, 83, 83) !important;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  font-family: sans-serif;
+  font-size: 0.5em;
+  text-anchor: middle;
+}
+
+
+/* Blocco lezioni-percentuale */
+/* Materiale condiviso lezioni e Percentuale di completamento */
+#Shared-Materials-for-lessons-all-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80%; /* Imposta una larghezza massima */
+    margin: 0 auto; /* Centra il contenuto orizzontalmente */
+  }
+  
+  /* Materiale condiviso lezioni */
+  #Shared-Materials-for-lessons {
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    margin-right: 100px; /* Aggiungi uno spazio tra i due div */
+  }
+  
+  /* Percentuale di completamento */
+  #Shared-Materials-percentage {
+    flex: 1; /* Occupa tutto lo spazio disponibile */
+    margin-left: 100px; /* Aggiungi uno spazio tra i due div */
+  }
+  
+  
+
+
+
+/* Materiale condiviso introduzione */
+#Shared-Materials-introduction {
+    display: flex;
+    flex-direction: column; /* Cambiato da row a column */
+    width: 80%;
+    margin: 20px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #4F6F52;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+  }
+  
+  #Shared-Materials-introduction-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    color: #E8DFCA;
+    margin: 20px 0;
+  }
+  
+  #Shared-Materials-introduction-img {
+    align-self: flex-start;
+    margin-left: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+    margin-bottom: 20px;
+    margin-top: -70px;
+  }
+  
+  #Shared-Materials-introduction-text {
+    margin-bottom: 20px;
+    margin-top: -100px;
+    color: #E8DFCA;
+    width: 70%;
+    font-size: 1.4rem;
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+/* Materiale condiviso lezioni */
+#Shared-Materials-for-lessons {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #4F6F52;
+  border-radius: 15px;
+  border: 3px solid black;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+#Shared-Materials-for-lessons-title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+  margin: 20px 0;
+}
+
+/* Rimuove tutti gli stili dei link */
+#Shared-Materials-for-lessons a {
+    color: #E8DFCA; 
+    text-decoration: none; 
+  }
+  
+/* Sottolinea il link al passaggio del mouse */
+#Shared-Materials-for-lessons a:hover {
+    color: white; 
+    text-decoration: underline;  
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+
+#Shared-Materials-for-lessons-list {
+    margin-bottom: 20px;
+}
+
+/* Aggiunge spazio tra gli elementi della lista lezioni */
+#Shared-Materials-for-lessons-list li {
+    margin-bottom: 10px; /* Aggiunge 10px di spazio tra gli elementi */
+    font-weight: bold;
+  }
+
+
+
+
+
+
+
+/* Percentuale di completamento */
+#Shared-Materials-percentage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+    margin-bottom: 20px;
+    background-color: #4F6F52;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+    position: relative; /* Aggiungi posizione relativa */
+}
+
+#Shared-Materials-percentage-bg {
+    background-color: #E8DFCA;
+    width: 90%;
+    height: 90%;
+    border-radius: 15px;
+    border: 3px solid black;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+    display: flex; /* Aggiunto display flex */
+    flex-direction: column; /* Aggiunto flex direction column */
+    align-items: center; /* Centra gli elementi orizzontalmente */
+    justify-content: center; /* Centra gli elementi verticalmente */
+}
+
+#Shared-Materials-percentage-title {
+    text-align: center; 
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 20px 0; /* Aggiorna il margine per centrare il titolo */
+}
+
+#Shared-Materials-percentage-chart {
+    margin: 20px auto 0; /* Posiziona il grafico al centro del div con margine superiore di 20px */
+}
+
+
+  

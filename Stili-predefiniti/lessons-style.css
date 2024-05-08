@@ -2,12 +2,14 @@
 #lessons-introduction {
     background-color: #4F6F52;
     color: #E8DFCA;
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     border-radius: 10px;
     overflow: hidden; /* Evita che il contenuto sporga dal contenitore */
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 3px solid black;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
 }
 
 #lessons-presentation-title {
@@ -15,7 +17,7 @@
     font-size: 45px;
     font-weight: bolder;
     color: black;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .lessons-content {
@@ -100,9 +102,11 @@ a:hover {
   border-radius: 10px;
   overflow: hidden;
   padding: 15px;
-  margin: 0 10px 20px; /* Margine sopra e sotto, e margine orizzontale tra i div delle lezioni */
+  margin: 0 40px 20px; /* Margine sopra e sotto, e margine orizzontale tra i div delle lezioni */
   display: inline-block; /* Imposta i div come blocchi inline per posizionarli accanto l'uno all'altro */
   vertical-align: top; /* Allinea i div in alto */
+  border: 3px solid black;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
 }
 
 
@@ -138,13 +142,13 @@ a:hover {
   }
   
   #lesson-introduction-img-text img {
-    width: 15%; /* Imposta la larghezza dell'immagine */
+    width: 180px; /* Imposta la larghezza dell'immagine */
     border-radius: 10px;
     margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: -50px;
-    padding-bottom: 8rem;
-    padding-right: 3rem;
+    margin-bottom: 15%;
+    margin-top: -105px;
+    border: 3px solid black;
+  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
   }
   
   #lessons-presentation-text {
