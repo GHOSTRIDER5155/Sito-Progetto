@@ -59,6 +59,9 @@ body {
     width: 100%; /* Imposta la larghezza del body al 100% */
 }
 
+
+
+/* BACKGROUND */
 /*sezione per ruotare lo sfondo*/
 body::before {
     content: "";
@@ -72,6 +75,13 @@ body::before {
     background-repeat: repeat; /* Ripeti l'immagine */
     transform: rotate(-17deg) scale(0.8); /* Ruota l'immagine di 20 gradi e rendila del 80% delle dimensioni originali */
 }
+
+/* sezione per far scorrere lo sfondo */
+
+
+
+
+
 
 header, nav, main, footer {
     width: 100%;

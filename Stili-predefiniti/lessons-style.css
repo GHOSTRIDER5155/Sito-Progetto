@@ -1,0 +1,153 @@
+/* sezione per presentazioni lezioni */
+#lessons-introduction {
+    background-color: #4F6F52;
+    color: #E8DFCA;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden; /* Evita che il contenuto sporga dal contenitore */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lessons-presentation-title {
+    text-align: center; /* Centra il titolo */
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 3rem;
+}
+
+.lessons-content {
+    display: flex; /* Utilizza il layout flexbox per disporre l'immagine e il testo */
+}
+
+#lessons-presentation-text {
+    width: 60%; /* Imposta la larghezza del testo al 60% dello spazio disponibile */
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+
+
+
+/* sezione per lezioni in corso */
+/* seleziona tutti i link */
+a {
+    text-decoration: none;
+    color: #E8DFCA;
+    margin-bottom: 30px;
+}
+
+/* sezione per hover su titti i link */
+a:hover {
+    color: #FFFFFF;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+
+#inprogress-lessons {
+    background-color: #4F6F52;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* sezione pre lezioni concluse */
+#finished-lessons {
+    background-color: #4F6F52;
+    width: 35%;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+   
+
+
+/* TITLE SECTION */
+/* sezione titoli lezioni */
+#finished-lessons-title,
+#inprogress-lessons-title {
+    font-size: 20px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+
+/* CSS per mettere i paragrafi lezioni uno accanto all'altro */
+/* CSS per i div delle lezioni */
+#lessons-container {
+    text-align: center;
+}
+
+#inprogress-lessons,
+#finished-lessons {
+  background-color: #4F6F52;
+  width: 30%; /* Larghezza dei div delle lezioni */
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 15px;
+  margin: 0 10px 20px; /* Margine sopra e sotto, e margine orizzontale tra i div delle lezioni */
+  display: inline-block; /* Imposta i div come blocchi inline per posizionarli accanto l'uno all'altro */
+  vertical-align: top; /* Allinea i div in alto */
+}
+
+
+
+
+/* CSS per il testo all'interno dei div delle lezioni */
+/* CSS per allineare il testo a sinistra all'interno dei div delle lezioni */
+#inprogress-lessons li,
+#finished-lessons li {
+    text-align: left; /* Allinea il testo a sinistra */
+    padding: 0 10px;
+    font-weight: bold;
+}
+
+
+/* Regola media query per rendere il layout responsive */
+@media only screen and (max-width: 768px) {
+  #inprogress-lessons,
+  #finished-lessons {
+    width: 90%; /* Riduci la larghezza su schermi più piccoli */
+    margin: 0 auto 20px; /* Margine sopra e sotto, e centratura orizzontale su schermi più piccoli */
+    display: block; /* Passa alla visualizzazione a blocco su schermi più piccoli */
+  }
+}
+
+
+
+/* CSS per immagine e testo della intro */
+/* CSS per l'immagine e il testo dell'introduzione */
+#lesson-introduction-img-text {
+    display: flex; /* Utilizza il layout flexbox */
+    align-items: center; /* Allinea verticalmente al centro */
+  }
+  
+  #lesson-introduction-img-text img {
+    width: 15%; /* Imposta la larghezza dell'immagine */
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 8rem;
+    padding-right: 3rem;
+  }
+  
+  #lessons-presentation-text {
+    width: 80%; /* Imposta la larghezza del testo */
+    padding-left: 20px; /* Aggiunge un padding sinistro per separare il testo dall'immagine */
+  }
+
