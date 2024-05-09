@@ -7,6 +7,9 @@
 - Fixare in Lezioni immagine (border radius) e testo
 - Fixare colore a tutti i titoli
 - Fixare pagine Lezioni-signole in modo che siano generali per tutte
+- Fixare foto battery in pagina Lezioni-signole
+- Fixare Ul nella pagina Lezioni-singole
+- Fixare grandezza foto battery
 
 ## DA MODIFICARE
 
@@ -43,7 +46,7 @@ Il cambio lingua deve progredire con la pagina successiva.
 ### Aggiunta materiali
 
 Questo script deve fare in modo che io posso aggiungere o eliminare un materiale dalla lezione corrente
-!!!ATTENZIONE!!!
+!!!ATTENZIONE!!
 La percentuale ovviamente si deve modificare con l'aggiunta o la rimozione dei materiali
 
 ### Bottone cookies

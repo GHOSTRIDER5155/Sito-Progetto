@@ -1,6 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="-5.0 -10.0 110.0 135.0">
- <g fill-rule="evenodd">
-  <path d="m14.062 34.375c0-1.7266 1.3984-3.125 3.125-3.125h56.25c1.7266 0 3.125 1.3984 3.125 3.125v31.25c0 1.7266-1.3984 3.125-3.125 3.125h-56.25c-1.7266 0-3.125-1.3984-3.125-3.125zm42.188 28.125v-25h-7.8125v25zm6.25 0h7.8125v-25h-7.8125zm-28.125-25h7.8125v25h-7.8125zm-6.25 25v-25h-7.8125v25z"/>
-  <path d="m3.125 32.812c0-6.9023 5.5977-12.5 12.5-12.5h59.375c6.375 0 11.633 4.7695 12.402 10.938h0.097656c5.1758 0 9.375 4.1992 9.375 9.375v18.75c0 5.1758-4.1992 9.375-9.375 9.375h-0.097656c-0.76953 6.168-6.0273 10.938-12.402 10.938h-59.375c-6.9023 0-12.5-5.5977-12.5-12.5zm12.5-6.25c-3.4531 0-6.25 2.7969-6.25 6.25v34.375c0 3.4531 2.7969 6.25 6.25 6.25h59.375c3.4531 0 6.25-2.7969 6.25-6.25v-1.5625c0-1.7266 1.3984-3.125 3.125-3.125h3.125c1.7266 0 3.125-1.3984 3.125-3.125v-18.75c0-1.7266-1.3984-3.125-3.125-3.125h-3.125c-1.7266 0-3.125-1.3984-3.125-3.125v-1.5625c0-3.4531-2.7969-6.25-6.25-6.25z"/>
- </g>
-<text x="0.0" y="117.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#000000">Created by HideMaru</text><text x="0.0" y="122.5" font-size="5.0" font-weight="bold" font-family="Arbeit Regular, Helvetica, Arial-Unicode, Arial, Sans-serif" fill="#000000">from Noun Project</text></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<desc>Created with Fabric.js 5.2.4</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="transparent"></rect>
+<g transform="matrix(1 0 0 1 540 540)" id="1f5a6419-ae11-4c33-9f55-b4fce1125f7a"  >
+</g>
+<g transform="matrix(1 0 0 1 540 540)" id="a2f332eb-814e-4d46-b874-fe41134952a5"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1; visibility: hidden;" vector-effect="non-scaling-stroke"  x="-540" y="-540" rx="0" ry="0" width="1080" height="1080" />
+</g>
+<g transform="matrix(1 0 0 1 536.87 517.96)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-45.31, -50)" d="M 14.062 34.375 C 14.062 32.6484 15.4604 31.25 17.186999999999998 31.25 L 73.437 31.25 C 75.1636 31.25 76.562 32.6484 76.562 34.375 L 76.562 65.625 C 76.562 67.3516 75.1636 68.75 73.437 68.75 L 17.186999999999998 68.75 C 15.460399999999998 68.75 14.061999999999998 67.3516 14.061999999999998 65.625 z M 56.25 62.5 L 56.25 37.5 L 48.4375 37.5 L 48.4375 62.5 z M 62.5 62.5 L 70.3125 62.5 L 70.3125 37.5 L 62.5 37.5 z M 34.375 37.5 L 42.1875 37.5 L 42.1875 62.5 L 34.375 62.5 z M 28.125 62.5 L 28.125 37.5 L 20.3125 37.5 L 20.3125 62.5 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 541.56 517.96)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: evenodd; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-50, -50)" d="M 3.125 32.812 C 3.125 25.909699999999997 8.7227 20.311999999999998 15.625 20.311999999999998 L 75 20.311999999999998 C 81.375 20.311999999999998 86.633 25.0815 87.402 31.25 L 87.499656 31.25 C 92.675456 31.25 96.874656 35.4492 96.874656 40.625 L 96.874656 59.375 C 96.874656 64.5508 92.675456 68.75 87.499656 68.75 L 87.402 68.75 C 86.63247 74.918 81.3747 79.688 75 79.688 L 15.625 79.688 C 8.7227 79.688 3.125 74.0903 3.125 67.188 z M 15.625 26.561999999999998 C 12.1719 26.561999999999998 9.375 29.3589 9.375 32.812 L 9.375 67.187 C 9.375 70.6401 12.1719 73.437 15.625 73.437 L 75 73.437 C 78.4531 73.437 81.25 70.6401 81.25 67.187 L 81.25 65.6245 C 81.25 63.8979 82.6484 62.4995 84.375 62.4995 L 87.5 62.4995 C 89.2266 62.4995 90.625 61.101099999999995 90.625 59.3745 L 90.625 40.6245 C 90.625 38.8979 89.2266 37.4995 87.5 37.4995 L 84.375 37.4995 C 82.6484 37.4995 81.25 36.101099999999995 81.25 34.3745 L 81.25 32.812 C 81.25 29.3589 78.4531 26.561999999999998 75 26.561999999999998 z" stroke-linecap="round" />
+</g>
+</svg>
