@@ -1,0 +1,69 @@
+/* MAIN CONTENT */
+#main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Imposta l'altezza al 100% della viewport */
+}
+
+/* TITLE */
+#title {
+    text-align: center;
+    margin:15px 0;
+    color: #E8DFCA;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#title-content {
+    margin-bottom: 20px;
+    width: 15%;
+    height: 5%;
+    background-color: #4F6F52;
+    border: 3px black solid;
+    border-radius: 25px;
+    display: inline-block;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85); 
+}
+
+
+
+
+/* BACKGROUND CONTENT */
+#bg-content {
+    position: relative; /* Aggiungi posizione relativa */
+    z-index: 1; /* Imposta il livello z a 1 */
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    background-color: #4F6F52;
+    border: 3px black solid;
+    border-radius: 25px; /* Arrotonda i bordi */
+    display: inline-block; /* Cambia il display da block a inline-block */
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+/* FOREGROUND CONTENT */
+#fg-content {
+    position: relative;
+    z-index: 2;
+    margin: 3%;
+    width: 93%;
+    height: 87%;
+    background-color: #E8DFCA;
+    border: 3px black solid;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+
+
+/* FILE CONTENT */
+#file-content {
+    /* Aggiungi gli stili necessari per il contenuto del file */
+}

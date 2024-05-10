@@ -89,7 +89,7 @@
 
 #content-page-subject-links-img {
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: -350px;
     margin-left: auto; /* Aggiunto per posizionare l'immagine a destra */
     border-radius: 10px;
     border: 3px solid black;
@@ -103,10 +103,55 @@
     margin-top: 20px;
     margin-left: auto; /* Aggiunto per posizionare la batteria a destra */
     width: 200px;
-    margin-right: 20px;
+    margin-right: -15px;
     rotate: -90deg;
+    transform: scale(9);
 }
 
 
 
-/* AGGIUNGI MATERIALE */
+/* IMMAGINI STATO */
+#images-status {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+
+
+/* Stili per il checkbox */
+input[type="checkbox"] {
+    -webkit-appearance: none; /* Rimuove lo stile predefinito */
+    -moz-appearance: none;
+    appearance: none;
+    width: 20px; /* Imposta la larghezza */
+    height: 20px; /* Imposta l'altezza */
+    border: 2px solid black; /* Imposta il bordo nero */
+    border-radius: 50%; /* Rende il checkbox tondo */
+    outline: none; /* Rimuove l'outline */
+    cursor: pointer; /* Cambia il cursore al passaggio */
+    margin-left: auto; /* Sposta il checkbox tutto a destra */
+    margin-right: 20px; /* Margine a destra di 20px */
+  }
+  
+  /* Stili per il checkbox quando è selezionato */
+  input[type="checkbox"]:checked {
+    background-color: #4f6f52; /* Colore di sfondo verde */
+  }
+  
+  /* Stili per il segno di spunta */
+  input[type="checkbox"]:checked::after {
+    content: ""; /* Contenuto vuoto */
+    display: block;
+    width: 10px; /* Larghezza */
+    height: 20px; /* Altezza */
+    border: solid #E8DFCA; /* Imposta il colore del segno di spunta */
+    border-width: 0 3px 3px 0; /* Dimensioni e direzione della spunta */
+    transform: rotate(45deg); /* Ruota la spunta di 45 gradi */
+    position: relative; /* Posiziona relativamente */
+    left: 4px; /* Sposta la spunta a destra */
+    top: -10px; /* Sposta la spunta verso l'alto */
+  }
+  

@@ -9,7 +9,8 @@
 - Fixare pagine Lezioni-signole in modo che siano generali per tutte
 - Fixare foto battery in pagina Lezioni-signole
 - Fixare Ul nella pagina Lezioni-singole
-- Fixare grandezza foto battery
+- Fixare footer pagina Lezioni-singole
+- Fixare batteria (UTILIZZARE FONTAWESOME)
 
 ## DA MODIFICARE
 
@@ -17,7 +18,8 @@
 - Modificare immagini Home per ogni paragrafo
 - Rendere dinamica la percentuale a pagina Materiale-condiviso
 - Rendere dinamica la percentuale a pagina Lezioni-singole
-- Modificare lo stile della checkbox per il completamento in pagina Lezioni-singole
+- Modificare lo stile della checkbox per il completamento in pagina Lezioni-singole (FONTAWESOME PER LO STILE)
+- Modificare stile pulsante aggiunta elementi in pagina Lezioni-singole
 
 ## SCRIPTS
 
@@ -52,3 +54,11 @@ La percentuale ovviamente si deve modificare con l'aggiunta o la rimozione dei m
 ### Bottone cookies
 
 Il bottone cookies in Home deve essere posizionato in basso a sinistra della pagina e deve fare un pop-up con l'hover
+
+
+## IL LATO SERVER
+
+Bisogna creare una pagina signola in html/css ed un database.
+Si creeranno le logiche grazie a php che andrà a prendere le risorse dal database e le metterà all'interno della pagina.
+
+IMPARARE AD USARE PHP E CREARE UN SERVER PER IL DATABASE
