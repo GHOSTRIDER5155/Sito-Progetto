@@ -84,7 +84,7 @@ body::before {
   background-image: url("/Immagini/Immagini-sfondo/dodlees-wallpaper.png"); /* Usa la stessa immagine di sfondo */
   background-repeat: repeat; /* Ripeti l'immagine */
   transform: rotate(-17deg) scale(0.8); /* Ruota l'immagine di 20 gradi e rendila del 80% delle dimensioni originali */
-  animation: scorrimentoSfondo 20s linear infinite; /* Applica l'animazione */
+  animation: scorrimentoSfondo 100s linear infinite; /* Applica l'animazione */
 }
 
 
