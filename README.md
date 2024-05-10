@@ -4,17 +4,15 @@
 - Fixare font di tutto
 - Fixare scritta Ringraziamenti nel footer
 - Fixare breadcrumb in Lezioni (non deve creare effetto hover come nei link della pagina)
-- Fixare in Lezioni immagine (border radius) e testo
 - Fixare colore a tutti i titoli
 - Fixare pagine Lezioni-signole in modo che siano generali per tutte
 - Fixare foto battery in pagina Lezioni-signole
 - Fixare Ul nella pagina Lezioni-singole
-- Fixare footer pagina Lezioni-singole
+- Fixare footer pagina Lezioni-singole (colpa della battery)
 - Fixare batteria (UTILIZZARE FONTAWESOME)
 
 ## DA MODIFICARE
 
-- Aggiungere animazione sfondo (leggera traslazione verso destra)
 - Modificare immagini Home per ogni paragrafo
 - Rendere dinamica la percentuale a pagina Materiale-condiviso
 - Rendere dinamica la percentuale a pagina Lezioni-singole

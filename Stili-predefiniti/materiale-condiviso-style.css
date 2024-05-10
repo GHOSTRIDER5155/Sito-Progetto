@@ -119,12 +119,6 @@
     font-size: 1.4rem;
   }
   
-  
-  
-
-
-
-
 
 
 
@@ -221,4 +215,56 @@
 }
 
 
-  
+
+
+/* ANIMAZIONI */
+/* Animazione di ingresso dall'alto per l'introduzione */
+@keyframes ingressoDaSopra {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Applicazione dell'animazione all'introduzione */
+#Shared-Materials-introduction {
+  animation: ingressoDaSopra 0.7s ease-out forwards;
+}
+
+/* Animazione di ingresso da destra per il grafico */
+@keyframes ingressoDaDestra {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Applicazione dell'animazione al grafico */
+#Shared-Materials-percentage {
+  animation: ingressoDaDestra 0.7s ease-out forwards;
+}
+
+/* Animazione di ingresso da sinistra per l'altro elemento */
+@keyframes ingressoDaSinistra {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Applicazione dell'animazione all'altro elemento */
+#Shared-Materials-for-lessons {
+  animation: ingressoDaSinistra 0.7s ease-out forwards;
+}

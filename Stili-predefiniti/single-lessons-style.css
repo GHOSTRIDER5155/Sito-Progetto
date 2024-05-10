@@ -155,3 +155,40 @@ input[type="checkbox"] {
     top: -10px; /* Sposta la spunta verso l'alto */
   }
   
+
+
+
+/* ANIMAZIONI */
+/* Animazione di ingresso dall'alto per l'introduzione */
+@keyframes ingressoDaSopra {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Applicazione dell'animazione all'introduzione */
+#content-page-subject-intro {
+    animation: ingressoDaSopra 0.7s ease-out forwards;
+}
+
+/* Animazione di ingresso dal basso per l'altro elemento */
+@keyframes ingressoDalBasso {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Applicazione dell'animazione all'altro elemento */
+#content-page-subject-links {
+    animation: ingressoDalBasso 0.7s ease-out forwards;
+}

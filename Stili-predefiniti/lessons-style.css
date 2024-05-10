@@ -157,3 +157,56 @@ a:hover {
     font-size: 1.4rem; /* Imposta la dimensione del testo */
   }
 
+
+
+
+/* ANIMAZIONI */
+/* Animazione per l'introduzione dall'alto */
+@keyframes ingressoDaAlto {
+  from {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+/* Applicazione dell'animazione all'introduzione */
+#lessons-introduction {
+  animation: ingressoDaAlto 0.7s ease-in-out;
+}
+
+/* Animazione di ingresso da sinistra */
+@keyframes ingressoDaSinistra {
+  from {
+      transform: translateX(-100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Animazione di ingresso da destra */
+@keyframes ingressoDaDestra {
+  from {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/* Applicazione delle animazioni ai div delle lezioni */
+#inprogress-lessons {
+  animation: ingressoDaSinistra 0.7s ease-in-out;
+}
+
+#finished-lessons {
+  animation: ingressoDaDestra 0.7s ease-in-out;
+}

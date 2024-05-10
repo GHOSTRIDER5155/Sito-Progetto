@@ -62,25 +62,30 @@ body {
 
 
 /* BACKGROUND */
-/*sezione per ruotare lo sfondo*/
-body::before {
-    content: "";
-    position: fixed;
-    top: -50%;
-    left: -50%;
-    width: 200%;
-    height: 200%;
-    z-index: -1;
-    background-image: url("/Immagini/Immagini-sfondo/dodlees-wallpaper.png"); /* Usa la stessa immagine di sfondo */
-    background-repeat: repeat; /* Ripeti l'immagine */
-    transform: rotate(-17deg) scale(0.8); /* Ruota l'immagine di 20 gradi e rendila del 80% delle dimensioni originali */
+/* Animazione di scorrimento lento dello sfondo */
+@keyframes scorrimentoSfondo {
+  from {
+      background-position: 0 0; /* Posizione iniziale */
+  }
+  to {
+      background-position: -1000px 0; /* Posizione finale (modifica -1000px a seconda della larghezza del tuo sfondo) */
+  }
 }
 
-/* sezione per far scorrere lo sfondo */
-
-
-
-
+/* Applicazione dell'animazione allo sfondo */
+body::before {
+  content: "";
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  z-index: -1;
+  background-image: url("/Immagini/Immagini-sfondo/dodlees-wallpaper.png"); /* Usa la stessa immagine di sfondo */
+  background-repeat: repeat; /* Ripeti l'immagine */
+  transform: rotate(-17deg) scale(0.8); /* Ruota l'immagine di 20 gradi e rendila del 80% delle dimensioni originali */
+  animation: scorrimentoSfondo 20s linear infinite; /* Applica l'animazione */
+}
 
 
 header, nav, main, footer {
@@ -246,79 +251,6 @@ main {
 h1 {
     font-size: 30px;
 }
-
-
-
-
-/* Paragraphs */
-.paragraph-section {
-  display: flex;
-  flex-direction: column;
-  color: #E8DFCA;
-}
-
-.left-align {
-  justify-content: flex-start; /* Allinea i paragrafi a sinistra */
-  padding-right: 20px; /* Aggiungi spazio a destra per allineare con il padding */
-  margin-left: 1%;
-}
-
-.right-align {
-  justify-content: flex-end; /* Allinea i paragrafi a destra */
-  padding-left: 20px; /* Aggiungi spazio a sinistra per allineare con il padding */
-  margin-left: 14.7%;
-}
-
-.paragraph {
-  display: flex;
-  align-items: center;
-  background-color: #1a4d2e;
-  border-radius: 20px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  padding: 20px 20px;
-  width: 80%;
-  overflow: hidden;
-  border-color: #000000;
-  border: 3px solid black;
-  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
-}
-
-.paragraph img {
-  max-width: 200px;
-  margin-right: 20px;
-  border: #000000 3px solid;
-  box-shadow: 10px 10px 15px -10px rgba(0, 0, 0, 0.85);
-}
-
-.left-image {
-  order: -1;
-}
-
-.right-image {
-  order: 1;
-}
-
-.left-title {
-  order: -1;
-  padding-right: 10px;
-  padding-bottom: 104px;
-  font-size: 25px;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-.left-title-material {
-  padding-top: 25px;
-}
-
-.right-title {
-  order: 2;
-  padding-bottom: 104px;
-  font-size: 25px;
-  text-shadow: 2px 2px 4px #000000;
-}
-
-
 
 
 
